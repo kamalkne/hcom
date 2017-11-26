@@ -1,3 +1,3 @@
-# keep all steps in nom start - no need to separately start server
-# Print server and browser time
+# keep all steps in npm start - no need to separately start server
 # Server side rendering
+# Print server and browser time
