@@ -1,0 +1,44 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.active {
+    border-bottom: 2px solid cadetblue;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2:first-of-type {
+    margin-top: 70px;
+}
+
+.nav-item > a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fix-header {
+    background-color: greenyellow;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
