@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   template: `<div><router-outlet></router-outlet></div>`
 })
 
-export class AppComponent {
-    name = 'Angular';
-}
+export class AppComponent { }

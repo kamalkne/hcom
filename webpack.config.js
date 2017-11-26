@@ -45,7 +45,7 @@ const config = {
         new UglifyJsPlugin(),
         new HtmlWebpackPlugin(
             {
-                title: 'My App',
+                title: 'Hcom App',
                 template: 'index.html'
             }
         )
